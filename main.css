@@ -1,0 +1,15 @@
+html {
+    line-height: 1.6;
+    font-family: 'Rubik', sans-serif;
+  }
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.section-one{
+    background-image: url("background.png");
+    background-repeat: space;
+    opacity: 40%;
+    width: 99vw;
+    height: 100vh;
+}
