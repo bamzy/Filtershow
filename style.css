@@ -45,11 +45,7 @@ button:hover{
 .nav-item a:hover {
     color:  #0088a9;
 }
-.logo {
-    border-radius: 30px;
-    width: 110px;
-    cursor: pointer;
-}
+
 .cta button{
     font-size: 2em;
     font-weight: 700;

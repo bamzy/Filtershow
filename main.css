@@ -8,27 +8,30 @@ html {
 
 body {
     margin:0;
-    padding:20px;
     font-family: Arial,Helvetica,sans-serif;
     font-size:1rem;
     color:#fff
+}
+
+
+aside,footer,main,section {
+    display:block;
+    margin:0;
+    padding:1.25rem;
+    /*border:1px solid #000;*/
+    color:#fff
+}
+
+main {
+    background:#000;
+    padding: 0;
 }
 
 .wrapper {
     margin:auto;
     max-width:75rem
 }
-aside,footer,header,main,section {
-    display:block;
-    margin:0;
-    padding:1.25rem;
-    border:1px solid #000;
-    color:#fff
-}
 
-main {
-    background:#000
-}
 
 .header {
     background:#03a9f4
@@ -53,4 +56,48 @@ main {
 }
 .footer{
     background:#616161
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    padding: 0 5em;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo {
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    margin-right: 3em;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
 }
