@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+html {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #8c90a3;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin: 1em 2em;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.nav-link {
+    list-style: none;
+}
+.nav-item {
+    font-size: 2em;
+    color: aliceblue;
+    margin: 0 0.5em;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.nav-item a {
+    transition:  all 0.3s ease 0s;
+    text-decoration: none;
+}
+.nav-item a:hover {
+    color:  #0088a9;
+}
+.logo {
+    border-radius: 30px;
+    width: 110px;
+    cursor: pointer;
+}
+.cta button{
+    font-size: 2em;
+    font-weight: 700;
+}
+.section-one{
+
+}
+.container{
+    background: pink;
+    height: 50vh;
+    width: 80vw;
+    margin: 15vh auto 0;
+    padding: 0.5em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+.item{
+    background: lightblue;
+    margin: 0.5em;
+}
