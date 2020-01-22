@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
 *,:after,:before {
     box-sizing:border-box
 }
@@ -8,9 +10,16 @@ html {
 
 body {
     margin:0;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 'Rubik', sans-serif;
+
     font-size:1rem;
     color:#fff
+}
+h3 {
+
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 
@@ -67,16 +76,23 @@ main {
     flex-direction: row;
 
 }
-.logo {
+.nav-logo {
     border-radius: 20px;
     width: 100px;
     cursor: pointer;
     margin-right: 3em;
 }
+.nav-links {
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+    /*align-content: space-around;*/
+}
+.nav-links a {
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
